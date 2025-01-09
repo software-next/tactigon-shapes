@@ -1,11 +1,11 @@
 # Tactigon Shapes
 
-Tactigon Shapes is an extension of [Blockly](https://developers.google.com/blockly) which is a proect by Google and it allows you to create visual, drag-and-drop block-based programming interfaces. Instead of typing code, you can create programs by connecting blocks or shapes together. From Tactigon Shapes you can generates code in JavaScript, Python, PHP, or Dart based on the visual blocks. But we recommend to use Python because almost all of our projects speak Python. 
+Tactigon Shapes is an extension of [Blockly](https://developers.google.com/blockly) which is a proect by Google and it allows you to create visual, drag-and-drop block-based programming interfaces. Instead of typing code, you can create programs by connecting blocks together. From Tactigon Shapes you can generates code in JavaScript, Python, PHP, or Dart based on the visual blocks. But we recommend to use Python because almost all of our projects speak Python. 
 
 ### Key Features of Tactigon Shapes:
 - Visual Programming: Drag-and-drop interface that helps users understand programming concepts.
 - Code Generation: Automatically generates code in multiple programming languages.
-- Customizable: You can create your own blocks/shapes and define their behavior.
+- Customizable: You can create your own blocks and define their behavior.
 
 ## Tactigon Ecosystem
 
@@ -110,4 +110,12 @@ python .\main.py
 
 Using Shapes is like building with LEGO bricks, you drag, drop, and connect pieces to create something functional. Here you will go through step by step how to use shapes. 
 
-Step 1:
+### Once you are on the Home webpage.
+- On this page, you can see some of our example shapes, such as Powerpoint, Braccio voice, and so on.
+- On the left side, you will see all your shapes, and on the right side, you can see the workspace, where you can drag blocks and create new shapes.
+
+### Create new Shape
+- Click Add Shape button, you will see a popup window to enter a name and a description.
+- Shape name should be unique, now click on the Add Shape button.
+- You will redirect to edit page where you can modify your shape. here you can either modify the shape or click save.
+- If successully created your shape, you will redirect to home page with a success notification.
