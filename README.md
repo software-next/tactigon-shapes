@@ -144,4 +144,8 @@ https://github.com/user-attachments/assets/6cc84398-4954-4650-b0ad-2eb0e861bfb6
 
 ## How to create your own blocks in Tactigon Shape
 
+We'll walk you through how to create the block and handle the Python code generation. The easiest step is to create your custom blocks on the Blockly Developer website:  
+[Blockly Developer Tools](https://developers.google.com/blockly/guides/create-custom-blocks/blockly-developer-tools) This platform provides an intuitive interface for defining block shapes, fields, and behavior without needing to write code manually. You can customize the block's appearance, input types, and logic connections. Once your block is designed, the tool generates the corresponding JSON and JavaScript code, which can be easily integrated into Tactigon Shapes project
+
+
 https://developers.google.com/blockly/guides/create-custom-blocks/blockly-developer-tools
