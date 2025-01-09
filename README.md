@@ -129,7 +129,17 @@ https://github.com/user-attachments/assets/65e7d149-e559-4a5b-a746-5a0868d2227e
 - Select a category and drag one of the blocks into the workspace.
 - For example, in the Touch category, you will find a hand gesture block which gives you the finger gesture from the TSkin device.
 
+Think of blocks like puzzle pieces. This means you can now connect them by dragging one block and placing it under or inside another block. But make sure that your shapes will snap together. Otherwise, program will not execute.  
 
 https://github.com/user-attachments/assets/d8b41a1d-e9d1-4bbe-afb6-de68e38764ab
+
+### Run Your First Shape
+- When you are done building, click the toggle button to see what your program does.
+- You will see a page with both your shape and the terminal with the output.
+
+
+https://github.com/user-attachments/assets/bdb9259b-f879-43fe-ab5b-5ffdd40428e9
+
+
 
 
