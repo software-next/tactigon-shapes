@@ -186,13 +186,13 @@ We'll walk you through how to create the block and handle the Python code genera
 ```
 
 3. **Add the Block to Tactigon Shapes**  
-   - Paste the JSON code into the [Custom blocks file](https://github.com/TactigonTeam/Tactigon-Shape/blob/master/tactigon_shapes/modules/shapes/static/js/custom_blocks.js) page in the **Shape** module.  
+   - Paste the JSON code into the [Custom blocks file](https://github.com/TactigonTeam/Tactigon-Shape/blob/master/tactigon_shapes/modules/shapes/static/js/custom_blocks.js) page in the **Shapes** module.  
    - After adding it, you will see both the new category (if created) and the new block in the Tactigon Shapes workspace.
 
 ![image](https://github.com/user-attachments/assets/711d0e14-5972-4583-bb06-41b1fcb64ad7)
 
 4. **Write Custom Code for the Block**  
-   - You can create custom Python code for your block in the [Custom blocks file](https://github.com/TactigonTeam/Tactigon-Shape/blob/master/tactigon_shapes/modules/shapes/static/js/custom_blocks.js) page in the **Shape** module.
+   - You can create custom Python code for your block in the [Custom blocks file](https://github.com/TactigonTeam/Tactigon-Shape/blob/master/tactigon_shapes/modules/shapes/static/js/custom_blocks.js) page in the **Shapes** module.
 ```
     python.pythonGenerator.forBlock['to_uppercase'] = function(block) {
         var text_to_print = Blockly.Python.valueToCode(block, 'TEXT', Blockly.Python.ORDER_ATOMIC) || "''";
