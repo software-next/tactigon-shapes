@@ -137,9 +137,4 @@ https://github.com/user-attachments/assets/d8b41a1d-e9d1-4bbe-afb6-de68e38764ab
 - When you are done building, click the toggle button to see what your program does.
 - You will see a page with both your shape and the terminal with the output.
 
-
-https://github.com/user-attachments/assets/bdb9259b-f879-43fe-ab5b-5ffdd40428e9
-
-
-
-
+https://github.com/user-attachments/assets/6cc84398-4954-4650-b0ad-2eb0e861bfb6
