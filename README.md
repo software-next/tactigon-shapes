@@ -1,6 +1,6 @@
 # Tactigon Shapes
 
-Tactigon Shapes is an extension of [Blockly](https://developers.google.com/blockly) which is a proect by Google and it allows you to create visual, drag-and-drop block-based programming interfaces. Instead of typing code, you can create programs by connecting blocks together. From Tactigon Shapes you can generates code in JavaScript, Python, PHP, or Dart based on the visual blocks. But we recommend to use Python because almost all of our projects speak Python. 
+Tactigon Shapes is an extension of [Blockly](https://developers.google.com/blockly) which is a project by Google and it allows you to create visual, drag-and-drop block-based programming interfaces. Instead of typing code, you can create programs by connecting blocks together. From Tactigon Shapes you can generate code in JavaScript, Python, PHP, or Dart based on the visual blocks. But we recommend using Python because almost all of our projects speak Python. 
 
 ### Key Features of Tactigon Shapes:
 - Visual Programming: Drag-and-drop interface that helps users understand programming concepts.
@@ -19,7 +19,7 @@ Tactigon ecosystem is made of:
 In order to use the Tactigon SDK the following prerequisites need to be observed:
 
 ### Instructions for Mac/Linux:
-To setup the required tools on your system, follow the steps below:
+To set the required tools on your system, follow the steps below:
 
 - CPU with AVX/FMA support
   - To check if your Mac supports **AVX/FMA** you can go to **About This Mac**. Check the CPU model and verify its features online.
@@ -35,17 +35,17 @@ To set up the required tools on your Windows 10 or Windows 11 operating system, 
 - Microsoft C++ Build Tools and Windows 10/11 SDK. 
 
 #### Microsoft C++ Build Tools and Windows 10/11 SDK installation
-Open the Visual Studio Installer on your system. if you do not have, [Download Visual Studio Installer](https://visualstudio.microsoft.com/downloads/)
+Open the Visual Studio Installer on your system. if you do not have one, [Download Visual Studio Installer](https://visualstudio.microsoft.com/downloads/)
 - From the Visual Studio Installer, click Modify or select Install for new installation.
 - Go to the individual components tab and install the latest version 
   - MSVC v143 - VS 2022 C++ Build Tools x64/x86 (latest version)
-  - Windows 10/11 SDK (latest version matching your windows version)
+  - Windows 10/11 SDK (latest version matching your Windows version)
 
 ![Screenshot 2024-11-21 162339](https://github.com/user-attachments/assets/5f6332f1-be2b-4fee-ad62-7feb734db710)
 
 ## Clone Tactigon Shapes
 
-1. Copy the URL for HTTPS by clicking Code button.
+1. Copy the URL for HTTPS by clicking the Code button.
 
 ![image](https://github.com/user-attachments/assets/bc9664eb-ba03-4ad4-b11d-9f29fcdd2289)
 
@@ -63,7 +63,7 @@ git clone https://github.com/TactigonTeam/Tactigon-Shape.git
 ![Code_0JguwTxnH2](https://github.com/user-attachments/assets/18b8e6d9-e264-4730-bd16-f29607859186)
 
 ## Create Virtual Environment
-It is recommended to create a dedicated python virtual environment and install the packages into the virtual environment:  
+It is recommended to create a dedicated Python virtual environment and install the packages into the virtual environment:  
 
 To create a virtual environment, run the following code.
 ```
@@ -79,11 +79,11 @@ For Windows users, you can execute this command to activate the Virtual Environm
 .\venv\Scripts\activate
 ```
 
-Depending on your installation (Linux, Raspberry, Mac users) you may need to use `python3` and `pip3` instead of `python` and `pip` respectively
+Depending on your installation (Linux, Raspberry, Mac users) you may need to use `python3` and `pip3` instead of `python` and `pip` respectively.
 
 ## Install
 
-To install the correct dependecies it is mandatory to follow the following step:
+To install the correct dependencies it is mandatory to follow the following step:
 ```zsh
 pip install flask==3.0.3 flask_socketio==5.3.6 gevent==24.2.1 tactigon_gear==5.2.0 PyAudio==0.2.13 pynput==1.7.7 sympy==1.13.2
 pip install deepspeech-tflite==0.9.3 --no-deps
@@ -92,17 +92,17 @@ pip install tactigon_speech==5.0.8.post1 --no-deps
 ![image](https://github.com/user-attachments/assets/94d27fbe-58fe-4519-9127-b97bac8677c5)
 
 ## Run Tactigon Shapes 
-1. Simple execute the main.py by running following command.
+1. Simple execute the main.py by running the following command.
 ```
 python .\main.py
 ```
 ![Code_ogZWoAEQee](https://github.com/user-attachments/assets/c4bfc927-1a3b-4491-942a-2be86a10a8dd)
 
-2. Open the web browser and type this http://127.0.0.1:5123 on the search bar. You will see a page whre you can connect to TSkin device.
+2. Open the web browser and type this http://127.0.0.1:5123 on the search bar. You will see a page where you can connect to TSkin device.
 
 ![image](https://github.com/user-attachments/assets/e576893d-e499-4b2f-aeae-d825a4102087)
 
-3. Once you completed the initial configuration, then you wil redirect to Shapes page.
+3. Once you complete the initial configuration, then you will be redirected to the Shapes page.
 
 ![image](https://github.com/user-attachments/assets/4449bfb8-4473-467d-8231-e9a83dfc53fa)
 
@@ -115,13 +115,21 @@ Using Shapes is like building with LEGO bricks, you drag, drop, and connect piec
 - On the left side, you will see all your shapes, and on the right side, you can see the workspace, where you can drag blocks and create new shapes.
 
 ### Create New Shape
-- Click Add Shape button, you will see a popup window to enter a name and a description.
+- Click the Add Shape button, and you will see a popup window to enter a name and a description.
 - Shape name should be unique, now click on the Add Shape button.
-- You will redirect to edit page where you can modify your shape. here you can either modify the shape or click save.
-- If successully created your shape, you will redirect to home page with a success notification.
+- You will be redirected to the edit page where you can modify your shape. Here you can either modify the shape or click save.
+- If you successfully created your shape, you will be redirected to the home page with a success notification.
 
 https://github.com/user-attachments/assets/65e7d149-e559-4a5b-a746-5a0868d2227e
 
+### Edit Shape
+- Click on the shape you want to modify and click the Edit code button on the right side to modify the shape. You will be redirected to the edit workspace where you can change your shape.
+- On the left, you will see categories like Logic, Math, Gesture, Touch, etc.
+- When you click a category, you can see all the blocks related to that category.
+- Select a category and drag one of the blocks into the workspace.
+- For example, in the Touch category, you will find a hand gesture block which gives you the finger gesture from the TSkin device.
 
+
+https://github.com/user-attachments/assets/d8b41a1d-e9d1-4bbe-afb6-de68e38764ab
 
 
