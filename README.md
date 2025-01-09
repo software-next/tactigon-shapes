@@ -102,6 +102,10 @@ python .\main.py
 
 ![image](https://github.com/user-attachments/assets/e576893d-e499-4b2f-aeae-d825a4102087)
 
+3. Once you completed the initial configuration, then you wil redirect to Shapes page.
+
+![image](https://github.com/user-attachments/assets/4449bfb8-4473-467d-8231-e9a83dfc53fa)
+
 ## How to use Shapes
 
 Using Shapes is like building with LEGO bricks, you drag, drop, and connect pieces to create something functional. Here you will go through step by step how to use shapes. 
