@@ -124,10 +124,8 @@ https://github.com/user-attachments/assets/65e7d149-e559-4a5b-a746-5a0868d2227e
 
 ### Edit Shape
 - Click on the shape you want to modify and click the Edit code button on the right side to modify the shape. You will be redirected to the edit workspace where you can change your shape.
-- On the left, you will see categories like Logic, Math, Gesture, Touch, etc.
-- When you click a category, you can see all the blocks related to that category.
-- Select a category and drag one of the blocks into the workspace.
-- For example, in the Touch category, you will find a hand gesture block which gives you the finger gesture from the TSkin device.
+- On the left, you will see categories like Logic, Math, Gesture, Touch, etc. When you click a category, you can see all the blocks related to that category.
+- Select a category and drag one of the blocks into the workspace. For example, in the Touch category, you will find a hand gesture block which gives you the finger gesture from the TSkin device.
 
 Think of blocks like puzzle pieces. This means you can now connect them by dragging one block and placing it under or inside another block. But make sure that your shapes will snap together. Otherwise, program will not execute.  
 
@@ -138,3 +136,6 @@ https://github.com/user-attachments/assets/d8b41a1d-e9d1-4bbe-afb6-de68e38764ab
 - You will see a page with both your shape and the terminal with the output.
 
 https://github.com/user-attachments/assets/6cc84398-4954-4650-b0ad-2eb0e861bfb6
+
+### Delete Shape
+- You can delete the shape by clicking the bin icon next to shape name.
