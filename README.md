@@ -96,7 +96,7 @@ pip install tactigon_speech==5.0.8.post1 --no-deps
 ```
 python .\main.py
 ```
-![Code_ogZWoAEQee](https://github.com/user-attachments/assets/c4bfc927-1a3b-4491-942a-2be86a10a8dd)
+![image](https://github.com/user-attachments/assets/b279bc37-f1ba-4714-bf09-233f1ac90837)
 
 2. Open the web browser and type this http://127.0.0.1:5123 on the search bar. You will see a page where you can connect to TSkin device.
 
