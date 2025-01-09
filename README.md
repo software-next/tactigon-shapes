@@ -9,7 +9,7 @@ Tactigon Shapes is an extension of [Blockly](https://developers.google.com/block
 
 ## Tactigon Ecosystem
 
-Tactigon ecosystem is made of:
+Tactigon ecosystem is consists of:
  - [Tactigon Gear](https://pypi.org/project/tactigon-gear/) to connect to a Tactigon Skin wearable device and do gesture recognition
  - [Tactigon Speech](https://pypi.org/project/tactigon-speech/) to implement voice recognition on top of Tactigon Gear
  - [Tactigon Arduino Braccio](https://pypi.org/project/tactigon-arduino-braccio/) to connect to the Arduino Braccio device
@@ -63,7 +63,7 @@ git clone https://github.com/TactigonTeam/Tactigon-Shape.git
 ![Code_0JguwTxnH2](https://github.com/user-attachments/assets/18b8e6d9-e264-4730-bd16-f29607859186)
 
 ## Create Virtual Environment
-It is recommended to create a dedicated Python virtual environment and install the packages into the virtual environment:  
+It is recommended to create a dedicated Python virtual environment and install the packages into it. 
 
 To create a virtual environment, run the following code.
 ```
@@ -92,7 +92,7 @@ pip install tactigon_speech==5.0.8.post1 --no-deps
 ![image](https://github.com/user-attachments/assets/94d27fbe-58fe-4519-9127-b97bac8677c5)
 
 ## Run Tactigon Shapes 
-1. Simple execute the main.py by running the following command.
+1. Simply execute the main.py by running the following command.
 ```
 python .\main.py
 ```
@@ -108,7 +108,7 @@ python .\main.py
 
 ## How to use Shapes
 
-Using Shapes is like building with LEGO bricks, you drag, drop, and connect pieces to create something functional. Here you will go through step by step how to use shapes. 
+Using Shapes is like building with LEGO bricks, you drag, drop, and connect pieces to create something functional. This section guides you step-by-step on how to use shapes.
 
 ### Once you are on the Home webpage.
 - On this page, you can see some of our example shapes, such as Powerpoint, Braccio voice, and so on.
@@ -116,7 +116,7 @@ Using Shapes is like building with LEGO bricks, you drag, drop, and connect piec
 
 ### Create New Shape
 - Click the Add Shape button, and you will see a popup window to enter a name and a description.
-- Shape name should be unique, now click on the Add Shape button.
+- The shape name should be unique. Now, click on the Add Shape button.
 - You will be redirected to the edit page where you can modify your shape. Here you can either modify the shape or click save.
 - If you successfully created your shape, you will be redirected to the home page with a success notification.
 
@@ -127,7 +127,7 @@ https://github.com/user-attachments/assets/65e7d149-e559-4a5b-a746-5a0868d2227e
 - On the left, you will see categories like Logic, Math, Gesture, Touch, etc. When you click a category, you can see all the blocks related to that category.
 - Select a category and drag one of the blocks into the workspace. For example, in the Touch category, you will find a hand gesture block which gives you the finger gesture from the TSkin device.
 
-Think of blocks like puzzle pieces. This means you can now connect them by dragging one block and placing it under or inside another block. But make sure that your shapes will snap together. Otherwise, program will not execute.  
+Think of blocks like puzzle pieces. This means you can now connect them by dragging one block and placing it under or inside another block. However, ensure that your shapes snap together; otherwise, the program will not execute.
 
 https://github.com/user-attachments/assets/d8b41a1d-e9d1-4bbe-afb6-de68e38764ab
 
@@ -203,6 +203,8 @@ We'll walk you through how to create the block and handle the Python code genera
 
 5. **Run and Test**  
    - After creating your block, rerun the project and test your block by running your shape.
+
+![image](https://github.com/user-attachments/assets/f71ef35e-48df-4880-a7dd-e257b713105b)
 
 Here we have attached a demo video about how to create your own block in the Tactigon Shapes project.
 
