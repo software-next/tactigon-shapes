@@ -114,8 +114,14 @@ Using Shapes is like building with LEGO bricks, you drag, drop, and connect piec
 - On this page, you can see some of our example shapes, such as Powerpoint, Braccio voice, and so on.
 - On the left side, you will see all your shapes, and on the right side, you can see the workspace, where you can drag blocks and create new shapes.
 
-### Create new Shape
+### Create New Shape
 - Click Add Shape button, you will see a popup window to enter a name and a description.
 - Shape name should be unique, now click on the Add Shape button.
 - You will redirect to edit page where you can modify your shape. here you can either modify the shape or click save.
 - If successully created your shape, you will redirect to home page with a success notification.
+
+https://github.com/user-attachments/assets/65e7d149-e559-4a5b-a746-5a0868d2227e
+
+
+
+
