@@ -146,4 +146,64 @@ https://github.com/user-attachments/assets/6cc84398-4954-4650-b0ad-2eb0e861bfb6
 
 We'll walk you through how to create the block and handle the Python code generation. The easiest step is to create your custom blocks on the Blockly Developer website:  [Blockly Developer Tools](https://developers.google.com/blockly/guides/create-custom-blocks/blockly-developer-tools). This platform provides an intuitive interface for defining block shapes, fields, and behavior without needing to write code manually. You can customize the block's appearance, input types, and logic connections. Once your block is designed, the tool generates the corresponding JSON and JavaScript code, which can be easily integrated into Tactigon Shapes project.
 
+### Steps to Create Custom Blocks
+
+1. **Create a Category (Optional)**  
+   - If you want to organize your blocks, you can create a new category or assign your block to an existing category.  
+   - To create a new category, go to the [Edit](https://github.com/TactigonTeam/Tactigon-Shape/blob/master/tactigon_shapes/modules/shapes/templates/shapes/edit.jinja) page in the **Shape** module.
+
+```
+  <category name="To Uppercase" colour="#f1c40f ">
+      <block type="to_uppercase">
+      </block>
+  </category>
+```
+
+2. **Design Your Block**  
+   - Use the Blockly Developer Tools to create your new block by customizing its inputs, logic, and appearance.  
+   - Once done, copy the generated JSON code for your block.
+```
+ Blockly.Blocks['to_uppercase'] = {
+        init: function () {
+            this.jsonInit({
+                "type": "to_uppercase",
+                "tooltip": "",
+                "helpUrl": "",
+                "message0": "To Uppercase %1",
+                "args0": [
+                  {
+                    "type": "input_value",
+                    "name": "TEXT",
+                    "check": "String"
+                  }
+                ],
+                "previousStatement": null,
+                "nextStatement": null,
+                "colour": '#f1c40f'
+              });
+        }
+};
+```
+
+3. **Add the Block to Tactigon Shapes**  
+   - Paste the JSON code into the [Custom blocks file](https://github.com/TactigonTeam/Tactigon-Shape/blob/master/tactigon_shapes/modules/shapes/static/js/custom_blocks.js) page in the **Shape** module.  
+   - After adding it, you will see both the new category (if created) and the new block in the Tactigon Shapes workspace.
+
+![image](https://github.com/user-attachments/assets/711d0e14-5972-4583-bb06-41b1fcb64ad7)
+
+4. **Write Custom Code for the Block**  
+   - You can create custom Python code for your block in the [Custom blocks file](https://github.com/TactigonTeam/Tactigon-Shape/blob/master/tactigon_shapes/modules/shapes/static/js/custom_blocks.js) page in the **Shape** module.
+```
+    python.pythonGenerator.forBlock['to_uppercase'] = function(block) {
+        var text_to_print = Blockly.Python.valueToCode(block, 'TEXT', Blockly.Python.ORDER_ATOMIC) || "''";
+        var code = `debug(logging_queue, ${text_to_print}.upper())\n`;
+        return code;
+    };  
+```
+
+5. **Run and Test**  
+   - After creating your block, rerun the project and test your block by running your shape.
+
+Here we have attached a demo video about how to create your own block in the Tactigon Shapes project.
+
 https://github.com/user-attachments/assets/f0057429-2cc8-4c83-92eb-250ed9f52483
